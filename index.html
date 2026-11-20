@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - José Walter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Inputs de controle invisíveis -->
+        <input type="radio" name="lang" id="lang-pt" checked class="sr-only">
+        <input type="radio" name="lang" id="lang-en" class="sr-only">
+        <input type="radio" name="theme" id="theme-dark" checked class="sr-only">
+        <input type="radio" name="theme" id="theme-light" class="sr-only">
+
+        <div class="page-wrapper">
+            <header>
+                <div class="header-content">
+                    <h1>José Walter</h1>
+                    <p>DevOps</p>
+                </div>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="#sobre"><span class="pt">Sobre</span><span class="en">About</span></a></li>
+                    <li><a href="#destaque"><span class="pt">Destaque</span><span class="en">Featured</span></a></li>
+                    <li><a href="#habilidades"><span class="pt">Habilidades</span><span class="en">Skills</span></a></li>
+                    <li><a href="#contato"><span class="pt">Contato</span><span class="en">Contact</span></a></li>
+                </ul>
+
+                <div class="nav-controls">
+                    <div class="control-group">
+                        <label for="lang-pt" class="control-btn" id="lbl-pt">PT</label>
+                        <label for="lang-en" class="control-btn" id="lbl-en">EN</label>
+                    </div>
+                    <div class="control-group">
+                        <label for="theme-dark" class="control-btn" id="lbl-dark">
+                            <span class="pt">Escuro</span><span class="en">Dark</span>
+                        </label>
+                        <label for="theme-light" class="control-btn" id="lbl-light">
+                            <span class="pt">Claro</span><span class="en">Light</span>
+                        </label>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-layout">
+                <main class="main-content">
+                    <section id="sobre">
+                        <h2>
+                            <span class="pt">Sobre Mim</span>
+                            <span class="en">About Me</span>
+                        </h2>
+                        <p>
+                            <span class="pt">Sou estudante do ensino médio integrado com ensino técnico em informática para internet no IFRN, estou há quase um ano realizando esse curso técnico de informática para internet, tenho habilidades em DevOps, Sysadmin e Linux. Meu objetivo é oferecer gerenciamento de ambiente de qualidade, principalmente no que diz a respeito de ambientes em nuvem e contêinerizados.</span>
+                            <span class="en">I am a high school student integrated with technical education in internet informatics at IFRN. I have been taking this technical course for almost a year and have skills in DevOps, Sysadmin, and Linux. My goal is to offer quality environment management, especially regarding cloud and containerized environments.</span>
+                        </p>
+                    </section>
+
+                    <article id="destaque">
+                        <h2>
+                            <span class="pt">Projetos em destaque</span>
+                            <span class="en">Featured Projects</span>
+                        </h2>
+
+                        <h3>DevOps-Automation</h3>
+                        <p>
+                            <span class="pt">O DevOps Automation é um conjunto de ferramentas que automatiza uma série de soluções para problemas usando scripts em shell e python.</span>
+                            <span class="en">The DevOps Automation is a toolkit that uses DevOps tools that automate a series of solutions to problems using shell and python scripts.</span>
+                        </p>
+                        <a href="https://gitlab.com/josewalter01/devops-automation" target="_blank">
+                            <span class="pt">Ver Projeto no GitLab</span><span class="en">View Project on GitLab</span>
+                        </a>
+
+                        <h3>SysAdmin-Tool</h3>
+                        <p>
+                            <span class="pt">A SysAdmin CLI é uma ferramenta de linha de comando para auditoria, diagnóstico e monitoramento de recursos de hardware no Linux.</span>
+                            <span class="en">The SysAdmin CLI is an CLI tool for auditing, diagnosing, and monitoring hardware resources in linux.</span>
+                        </p>
+                        <a href="https://gitlab.com/josewalter01/sysadmin-cli" target="_blank">
+                            <span class="pt">Ver Projeto no GitLab</span><span class="en">View Project on GitLab</span>
+                        </a>
+
+                        <h3>Matrix-Synapse-Server</h3>
+                        <p>
+                            <span class="pt">Servidor Matrix Synapse (com painel admin e bot draupnir), PostgreSQL, Nginx e Cloudflare Tunnel com Docker e Tailscale.</span>
+                            <span class="en">Matrix Synapse (with admin panel and draupnir bot), PostgreSQL, Nginx and Cloudflare Tunnel with Docker and Tailscale.</span>
+                        </p>
+                        <a href="https://gitlab.com/josewalter01/matrix-synapse-server" target="_blank">
+                            <span class="pt">Ver Projeto no GitLab</span><span class="en">View Project on GitLab</span>
+                        </a>
+
+                        <h3>Spring-Product</h3>
+                        <p>
+                            <span class="pt">[OBSOLETO] Projeto para praticar operações CRUD, REST, GraphQL e SOAP com Spring Boot, além de testes, cache e mensageria sem Spring Security.</span>
+                            <span class="en">[DEPRECATED] The Spring Product is a project that trains CRUD, REST, GraphQL, and SOAP operations with Spring Boot, as well as testing, caching, and messaging.</span>
+                        </p>
+                        <a href="https://github.com/josewalter01/Spring-Product" target="_blank">
+                            <span class="pt">Ver Projeto no GitHub</span><span class="en">View Project on GitHub</span>
+                        </a>
+
+                        <h3>Spring-OAuth2</h3>
+                        <p>
+                            <span class="pt">[OBSOLETO] Projeto para praticar autenticação e autorização com acesso delegado (OAuth2 e OIDC).</span>
+                            <span class="en">[DEPRECATED] Spring OAuth2 is a project that trains authentication and authorization with delegated access (OAuth2 and OIDC).</span>
+                        </p>
+                        <a href="https://github.com/josewalter01/Spring-OAuth2" target="_blank">
+                            <span class="pt">Ver Projeto no GitHub</span><span class="en">View Project on GitHub</span>
+                        </a>
+                    </article>
+                </main>
+
+                <aside id="habilidades">
+                    <h2>
+                        <span class="pt">Habilidades Técnicas</span>
+                        <span class="en">Technical Skills</span>
+                    </h2>
+                    <ul>
+                        <li><strong>Dev:</strong> Java | Go | Maven | Spring | Hibernate | JUnit | Mockito | H2 | Redis | Kafka | Postman | Intellij IDEA</li>
+                        <li><strong>DevOps:</strong> Shell Scripting | Python | PostgreSQL | Git | Docker | Nginx | GitHub Actions | GitLab CI | Terraform | Ansible | Prometheus | Grafana | Loki | Jaeger | Trivy | Falco | Linux | FreeBSD</li>
+                        <li>
+                            <strong class="pt">Estudando:</strong><strong class="en">Learning:</strong>
+                            Jenkins | Vault | K3s | Helm
+                        </li>
+                    </ul>
+
+                    <h3 class="social-title">
+                        <span class="pt">Redes Sociais</span>
+                        <span class="en">Social Media</span>
+                    </h3>
+                    <div class="social-links">
+                        <a href="https://github.com/josewalter01" target="_blank">GitHub</a>
+                        <a href="https://gitlab.com/josewalter01" target="_blank">GitLab</a>
+                        <a href="https://www.linkedin.com/in/jos%C3%A9-walter-800781444" target="_blank">LinkedIn</a>
+                        <a href="https://lattes.cnpq.br/7560502312008812" target="_blank">Lattes</a>
+                        <a href="https://hub.docker.com/repositories/josewalter1" target="_blank">Docker Hub</a>
+                        <a href="https://huggingface.co/josewalter1" target="_blank">Hugging Face</a>
+                        <a href="https://x.com/josewalteran1" target="_blank">X</a>
+                    </div>
+                </aside>
+            </div>
+
+            <footer>
+                <p>
+                    <span class="pt">&copy; 2026 José Walter. Todos os direitos reservados.</span>
+                    <span class="en">&copy; 2026 José Walter. All rights reserved.</span>
+                </p>
+                <p id="contato">
+                    <span class="pt">Contato: josewalter1@proton.me</span>
+                    <span class="en">Contact: josewalter1@proton.me</span>
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
